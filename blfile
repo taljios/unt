@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x = np.arange(0,100,0.00001)
+y = x*sin(2*pi*x)
+plt.plot(y)
+plt.show()
